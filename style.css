@@ -9,10 +9,14 @@ header{
 }
 
 .logo{
+    display:block;
+    margin:auto;
+    margin-bottom: 3px;
     width: 40px;
     position: absolute;
     z-index: 2;
-    margin: 4px 0 0 30px;
+    width: 115px;
+    height:115px;
   }
 
 #top{
@@ -29,14 +33,7 @@ header{
 }
 /* Navigation bar styling*/
 
-/*Navbar image styling*/
-#navbar img{
-    display:block;
-    width: 115px;
-    height:115px;
-    margin:auto;
-    margin-bottom: 3px;
-}
+
 
 /*Navbar Functionality*/
 #navbar{
