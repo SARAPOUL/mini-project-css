@@ -186,15 +186,18 @@ ul li a:hover{
     font-family: 'Ubuntu Mono', monospace;
 }
 #container4{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    display: flex;
+    flex-direction: row;
+    align-items:center;
     margin: 41px;
+    flex-wrap: wrap;
 }
 .manu-product {
     width: 29vw;
     height: 360px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
+    margin: 8px;
     justify-content:center;
     align-items:flex-end;
     border-radius: 15px;
@@ -218,11 +221,10 @@ ul li a:hover{
     border-radius: 15px;
 }*/
 #row6{
-    width: 30vw;
+    width: 29vw;
     height: 360px;
-    display: flex;
     justify-content:center;
-    align-items:flex-end;
+    align-items:center;
     border-radius: 15px;
 } 
 
@@ -248,7 +250,7 @@ footer{
     color:gray;
 }
 /*Making the webpage responsive using media queries*/
-@media only screen and (max-width:1131px){
+/* @media only screen and (max-width:1131px){
     #row4{
         width: 42vw;
     }
@@ -311,4 +313,4 @@ footer{
     #container1{
         height:44vh
     }
-}
+} */
