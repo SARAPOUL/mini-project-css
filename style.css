@@ -191,6 +191,7 @@ ul li a:hover{
     align-items:center;
     margin: 41px;
     flex-wrap: wrap;
+    justify-content:center;
 }
 .manu-product {
     width: 29vw;
