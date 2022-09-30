@@ -110,6 +110,8 @@ ul li a:hover{
 }
 /*Button Styling*/
 .btn{
+    position: absolute;
+    z-index: 2;
     margin-top:15px;
     border: 3px solid white;
     border-radius:15px;
@@ -187,12 +189,20 @@ ul li a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin: 41px;
-}  
-#row4{
+}
+.manu-product {
     width: 29vw;
     height: 360px;
     border: 2px solid black;
-    background:url('http://www.gourmet.co.th/wp-content/uploads/2017/06/top10thai-008-20170613-768x512.jpg') no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}  
+/* #row4{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
     display: flex;
     justify-content:center;
     align-items:flex-end;
@@ -202,22 +212,20 @@ ul li a:hover{
     width: 29vw;
     height: 360px;
     border: 2px solid black;
-    background:url('http://www.gourmet.co.th/wp-content/uploads/2017/06/top10thai-009-20170613-768x480.jpg') no-repeat center center/cover;
     display: flex;
     justify-content:center;
     align-items:flex-end;
     border-radius: 15px;
-}
+}*/
 #row6{
     width: 30vw;
     height: 360px;
-    border: 2px solid black;
-    background:url('http://www.gourmet.co.th/wp-content/uploads/2017/06/top10thai-001-20170613-768x512.jpg') no-repeat center center/cover;
     display: flex;
     justify-content:center;
     align-items:flex-end;
     border-radius: 15px;
-}
+} 
+
 /*Designing the footer*/
 footer{
     text-align: center;
